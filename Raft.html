@@ -1,0 +1,286 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="cs-cz">
+  <head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/Raft.css"> 
+  <link rel="icon" href="obrázky/logo2.png" type="image/gif" sizes="16x16">
+  <title>Raft</title>
+
+  <style>
+
+    *{box-sizing: border-box;}
+
+    html, h2, body, div, header, footer, nav, section, article {margin: 0; padding: 0}
+
+    .wrapper, header, footer
+    {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    @media only screen and (min-width: 10px)
+    {
+        .na li a
+        {
+            text-decoration: none;
+            color: gray;
+            font-size: 2rem;
+        }
+
+        nav, section, article
+        {
+            width: 100%;
+        }
+
+        #kocka
+        {
+            height: 6%;
+        }
+        #pes
+        {
+            width: 100%;
+            font-size: 1rem;
+            height: 50%;
+        }
+        #kote
+        {
+            width: 100%;
+            font-size: 1.5rem;
+            height: 50%;
+        }
+        #Info
+        {
+            font-size: 1.8rem;
+        }
+    }
+
+    @media only screen and (min-width: 800px)
+    {
+        .na li a
+        {
+            text-decoration: none;
+            color: gray;
+            font-size: 2rem;
+        }
+
+        .pod    
+        {
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+
+        .na li
+        {
+            display: inline-block;
+        }
+
+        nav, section
+        {
+            width: 50%;
+        }
+
+        article
+        {
+            width: 100%;
+        }
+
+        #kocka
+        {
+            height: 4rem;
+        }
+        #pes
+        {
+            width: 60%;
+            float: left;
+            font-size: 1.5rem;
+            height: 100%;
+        }
+        #kote
+        {
+            width: 40%;
+            float: right;
+            font-size: 1.5rem;
+            height: 100%;
+        }
+        #Info
+        {
+            font-size: 2rem;
+        }
+        
+        #tabule
+        {
+            width: 60%;
+            float: right;
+        }
+        #pozadavky
+        {
+            width: 40%;
+            float: left;
+        }
+        #pole
+        {
+            height: 350px;
+        }
+        
+    }
+
+    @media only screen and (min-width: 1200px)
+    {
+        .pod    
+        {
+            margin-left: 150px;
+            margin-right: 150px;
+        }
+        .na li
+        {
+            display: inline-block;
+        }
+        nav, section, article
+        {
+            width: 33.33%;
+        }
+    }
+</style>
+  </head>
+  <body style="background-image: url(obrázkyp/RAFTP.jpg); background-attachment: fixed;">
+    <header>
+        <ul class="na" align="center">
+            <li><a href="index.html">Obchod </a></li> 
+            <li class="pod"><a href="Podpora.html">Podpora</a></li>
+            <li class="kom"><a href="Komunita.html"> Komunita</a></li>
+        </ul>
+        <img style="width: 100%;" src="obrázky/banner2.png" alt="banener">
+    </header>
+
+
+
+    <div class="wrapper" align="center">
+        <h1>Raft</h1>
+        <video width="70%" controls class="video"> 
+            <source src="videa/Raft.mp4" type="video/mp4"> 
+        </video>
+
+        <div id="kocka" class="nazev">
+            <div id="pes" class="Hra">
+                <p class="p1">Zakoupit Raft</p>
+                <p class="p2">19,99€</p><br>
+            </div>
+            <div align="center" id="kote" class="cena"><a href="#"><p>Přidat do košíku</p></a></div>
+        </div>
+
+        <div class="obsah">
+            <h2 id="Info">Informace o hře</h2>
+            <p>Na malém kousku dřeva, s ničím jiným než hákem ze starých kousků plastu, se probudíte v rozlehlém modrém oceánu. Jste sami a neexistuje žádná země, kam až oko dohlédne. Voda je klidná a vše, co slyšíte, je slabý zvuk vln a jemný vánek. Se suchým hrdlem a prázdným žaludkem nebude přežití snadné.</p>
+            <p>Sám nebo s přáteli, vaším posláním je přežít epické oceánské dobrodružství přes nebezpečné moře! Shromážděte trosky, abyste přežili, rozšiřte svůj vor a dávejte si pozor na nebezpečí oceánu!</p>
+            <p>Uvězněni na malém voru jen s hákem ze starého plastu, hráči vzhůru na obrovském, modrém oceánu zcela sami a bez pevniny v dohledu! Se suchým hrdlem a prázdným žaludkem nebude přežití snadné!</p>
+            <p>Raft vrhá vás a vaše přátele do epického dobrodružství na velkém otevřeném moři, s cílem zůstat naživu, shromáždit zdroje a vybudovat si plovoucí domov hodný přežití.</p>
+            <p>Na moři je těžké sehnat zdroje: Hráči se budou muset ujistit, že chytit všechny trosky plave pomocí svého spolehlivého háku a pokud je to možné, vyčistit útesy pod vlnami a ostrovy nad. Nicméně, žízeň a hlad není jediné nebezpečí v oceánu... pozor na lidožravého žraloka rozhodnutého ukončit vaši cestu!</p>
+        </div>
+
+        <div id="pole" class="pole">
+            <div id="pozadavky">
+                <h2>Systémové požadavky</h2>
+                <p>OS: Windows 7 nebo lepší</p>
+                <p>Procesor: Intel Core i5 2.6GHz nebo lepší</p>
+                <p> Paměť: 8GB RAM</p>
+                <p>Grafická karta: GeForce GTX 700 nebo lepší</p>
+                <p>DirectX: Verze 11</p>
+                <p>Pevný disk: 6GB volného místa</p>
+            </div>
+            <div id="tabule" class="tabule">
+                <table class="table">
+                    <tr class="pis">
+                        <th style="width: 25%;"><b>Jazyk</b></th>
+                        <th style="width: 25%;"><b>Rozhraní</b></th>
+                        <th style="width: 25%;"><b>Zvuk</b></th>
+                        <th style="width: 25%;"><b>Titulky</b></th>
+                    </tr>
+                    <tr class="CZ">
+                        <td style="width: 25%;">Čeština</td>
+                        <td colspan="3" style="width: 75%;">Tento jazyk není podporovaný</td>
+                    </tr>
+                    <tr class="EN">
+                        <td style="width: 25%;">Angličtina</td>
+                        <td style="width: 25%;"><img src="obrázky/fajfka.png"></td>
+                        <td style="width: 25%;"><img src="obrázky/fajfka.png"></td>
+                        <td style="width: 25%;"><img src="obrázky/fajfka.png"></td>
+                    </tr>
+                    <tr class="FRA">
+                        <td style="width: 25%;">Francouzština</td>
+                        <td style="width: 25%;"><img src="obrázky/fajfka.png"></td>
+                        <td style="width: 25%;"></td>
+                        <td style="width: 25%;"></td>
+                    </tr>
+                    <tr class="RUS">
+                        <td style="width: 25%;">Ruština</td>
+                        <td style="width: 25%;"><img src="obrázky/fajfka.png"></td>
+                        <td style="width: 25%;"></td>
+                        <td style="width: 25%;"></td>
+                    </tr>
+                    <tr class="ITA">
+                        <td style="width: 25%;">Italština</td>
+                        <td style="width: 25%;"><img src="obrázky/fajfka.png"></td>
+                        <td style="width: 25%;"></td>
+                        <td style="width: 25%;"></td>
+                    </tr>
+                    <tr class="DEU">
+                        <td style="width: 25%;">Němčina</td>
+                        <td style="width: 25%;"><img src="obrázky/fajfka.png"></td>
+                        <td style="width: 25%;"></td>
+                        <td style="width: 25%;"></td>
+                    </tr>
+                    <tr class="JPN">
+                        <td style="width: 25%;">Japonština</td>
+                        <td style="width: 25%;"><img src="obrázky/fajfka.png"></td>
+                        <td style="width: 25%;"></td>
+                        <td style="width: 25%;"></td>
+                    </tr>
+                    <tr class="ESP">
+                        <td style="width: 25%;">Španělština</td>
+                        <td style="width: 25%;"><img src="obrázky/fajfka.png"></td>
+                        <td style="width: 25%;"></td>
+                        <td style="width: 25%;"></td>
+                    </tr>
+                    <tr class="KOR">
+                        <td style="width: 25%;">Korejština</td>
+                        <td style="width: 25%;"><img src="obrázky/fajfka.png"></td>
+                        <td style="width: 25%;"></td>
+                        <td style="width: 25%;"></td>
+                    </tr>
+                    <tr class="POL">
+                        <td style="width: 25%;">Polština</td>
+                        <td style="width: 25%;"><img src="obrázky/fajfka.png"></td>
+                        <td style="width: 25%;"></td>
+                        <td style="width: 25%;"></td>
+                    </tr>
+                    <tr class="PRT">
+                        <td style="width: 25%;">Portugalština</td>
+                        <td style="width: 25%;"><img src="obrázky/fajfka.png"></td>
+                        <td style="width: 25%;"></td>
+                        <td style="width: 25%;"></td>
+                    </tr>
+                    <tr class="CHN">
+                        <td style="width: 25%;">Čínština</td>
+                        <td style="width: 25%;"><img src="obrázky/fajfka.png"></td>
+                        <td style="width: 25%;"></td>
+                        <td style="width: 25%;"></td>
+                    </tr>
+                    <tr class="SWE">
+                        <td style="width: 25%;">Švédština</td>
+                        <td style="width: 25%;"><img src="obrázky/fajfka.png"></td>
+                        <td style="width: 25%;"></td>
+                        <td style="width: 25%;"></td>
+                    </tr>
+                  </table>
+            </div>
+        </div>
+        <div id="galerie" class="galerie">
+            <a href="RAFTG.html">Zobrazit galeri</a>
+        </div>
+    </div>
+  <footer align="center";>
+    <h2>©Copyright 2022</h2>
+  </footer>
+   
+  </body>
+</html>
