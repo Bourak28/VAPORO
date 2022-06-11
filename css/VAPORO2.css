@@ -1,0 +1,66 @@
+.na
+{
+    width: 100%;
+    background-color: #383636;
+    color: #383636;  
+    text-decoration: none;
+}
+
+.na li a:hover
+{
+    color: white;
+}
+
+.jednahra
+{
+    border: 1px solid black;
+    float: left;
+    margin: 20 10;
+    color: White;
+    background: rgba(0,0,0,0.2);
+}
+
+.jednahra img
+{
+    width: 100%;
+}
+
+
+.container {
+  position: relative;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+h1
+{
+    font-size: 2rem;;
+    margin-top: 25%;
+    margin-bottom: 0;
+    /*height: 20px;*/
+}
+
+.overlay {
+  position: relative; 
+  /*margin-bottom: -40px; */
+  margin-top: -20%;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /*Black see-through*/
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-weight: bold;
+  font-size: 4rem;
+  /*padding: 10%;*/
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
